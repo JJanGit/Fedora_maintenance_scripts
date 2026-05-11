@@ -54,7 +54,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 ask_run \
-"----- 1. Rremove unnecessaty packages -----" \
+"----- 1. Rremove unnecessary packages -----" \
 "Do you want to remove unnecessaty packages? (y/n):" \
 "dnf autoremove"
 
